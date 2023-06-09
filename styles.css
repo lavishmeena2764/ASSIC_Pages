@@ -1,0 +1,130 @@
+body {
+  font-family: sans-serif;
+  color: black;
+}
+
+.mobile-logo{
+  visibility: hidden;
+}
+
+.navbar-nav li {
+  border-right: 1px solid black;
+  margin-left: 10px;
+  padding-right: 10px;
+}
+
+.containe {
+  margin: auto;
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  flex-flow: wrap;
+  background-color: white;
+}
+
+form {
+  margin: 8% 10% 8% 10%;
+  width: 80%;
+}
+
+input[type=text],
+input[type=password] {
+  margin: 10px 0;
+  width: 60%;
+  border-radius: 5px;
+  padding: 15px 18px;
+  box-sizing: border-box;
+}
+
+button {
+  border: none;
+  background-color: #030804;
+  color: white;
+  padding: 14px 20px;
+  border-radius: 5px;
+  font-size: 18px;
+  opacity: 0.9;
+}
+
+.rgnbtn {
+  border-radius: 5px;
+  width: 60%;
+}
+
+.lgnbtn {
+  border: none;
+  border-radius: 5px;
+  background-color: rgb(0, 87, 255);
+}
+
+button:hover {
+  opacity: 1;
+  cursor: pointer;
+}
+
+.form {}
+
+.subcontainer {
+  width: 60%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.subcontainer a {
+  font-size: 16px;
+  margin-bottom: 12px;
+}
+
+span.forgotpsd a {
+  color: whitesmoke;
+  padding-top: 16px;
+}
+
+.forgotpsd {
+  text-align: right;
+  float: right;
+}
+
+.forgotpsd a {
+  text-decoration: none;
+  color: #000000;
+}
+
+.forgotpsd a:link {
+  text-decoration: none;
+}
+
+.emptydiv {
+  background-color: rgb(84, 136, 255);
+  opacity: 5;
+  float: right;
+
+}
+
+/* Media queries for the responsiveness of the page */
+@media screen and (max-width: 1000px) {
+  .emptydiv {
+    margin:auto;
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .navbar-nav li {
+    border-right: none;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  form {
+    width: 25rem;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  form {
+    width: 20rem;
+  }
+}
